@@ -1,10 +1,11 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "./components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./components/ui/card";
-import { Input } from "./components/ui/input";
-import { Textarea } from "./components/ui/textarea";
-import { Badge } from "./components/ui/badge";
+
+import { Button } from "./components/ui/button.jsx";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./components/ui/card.jsx";
+import { Input } from "./components/ui/input.jsx";
+import { Textarea } from "./components/ui/textarea.jsx";
+import { Badge } from "./components/ui/badge.jsx";
 import { PhoneCall, CheckCircle2 } from "lucide-react";
 
 const BRAND = "Ascensoprimesrl";
