@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modo oscuro por defecto, alineado al folleto */
+:root { color-scheme: dark; }
